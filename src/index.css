@@ -1,13 +1,202 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+main {
+  font-family: "Karla", sans-serif;
+  color: #333333;
+}
+
+main section {
+  width: 70%;
+  height: auto;
+  margin: 0 auto 2rem;
+}
+
+.center {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 2;
+}
+
+/* General Form Element Styles*/
+
+.form {
+  width: auto;
+  max-width: 30rem;
+  margin: 0 auto 4rem;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form p {
+  padding: 1.5rem 0;
+  color: #fff;
+}
+
+.form h1 {
+  font-size: 2rem;
+  color: #495e57;
+  text-align: center;
+}
+
+.form h3 {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+  font-weight: 400;
+}
+
+.form p a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.form p a:hover {
+  color: #f4ce14;
+}
+
+.formbtn {
+  cursor: pointer;
+  color: #333333;
+  font-family: "Karla", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #f4ce14;
+  border: 1px solid #f4ce14;
+  border-radius: 10rem;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.formbtn:hover {
+  background-color: #ccac0f;
+  border-color: #ccac0f;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* General Form Submission Status Styles*/
+
+.confirm {
+  border: 1px solid #edefee;
+}
+
+.booking-form {
+  width: auto;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.booking {
+  background-color: #fff;
+  width: auto;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.booking h2 {
+  color: #333;
+  padding-bottom: 1rem;
+}
+
+.booking p {
+  color: #495e57;
+  line-height: 1.75;
+  font-size: 1.15rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.booking .refresh,
+.booking a {
+  cursor: pointer;
+  color: #495e57;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.booking .refresh:hover,
+.booking a:hover {
+  color: #f4ce14;
+}
+
+.booking .action {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.final-act {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Responsive Styling*/
+
+@media screen and (max-width: 1420px) {
+  main section {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  main section {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  main section {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  main section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  main section {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-input {
+    flex-direction: column;
+  }
 }

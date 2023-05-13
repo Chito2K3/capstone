@@ -1,0 +1,97 @@
+footer {
+  height: auto;
+  background-color: #FBDABB;
+}
+
+.bottNav {
+  width: 80%;
+  height: 88%;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  margin: auto 0;
+}
+
+.bottNav h1 {
+  color: #495E57;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  font-family: "Markazi Text", serif;
+}
+
+.bottNav li,
+.bottNav li a {
+  padding: 0.3rem 0;
+  color: #495E57;
+  
+  font-size: 1.125rem;
+  font-family: "Markazi Text", serif;
+}
+
+.bottNav li a:hover {
+  color: #F4CE14;
+}
+
+.icon {
+  font-size: 1.25rem;
+  margin-right: 0.3rem;
+}
+
+.copyright {
+  border-top: 1px solid #888989;
+  background-color: #FBDABB;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  color: #495E57;
+  /* color: #edefee; */
+  font-family: "Markazi Text", serif;
+}
+
+@media screen and (max-width: 1140px) {
+  .bottNav {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .bottNav {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .bottNav {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bottNav {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bottNav {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .item h1,
+  .item li {
+    padding-left: 1.25rem;
+  }
+}

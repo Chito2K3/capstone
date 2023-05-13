@@ -1,0 +1,59 @@
+{
+  "testimonials.json": {
+    "t1": {
+      "comment": "Very Nice food and the place is awesome!",
+      "image": "images/profile1.jpg",
+      "name": "Chito Saba",
+      "rating": 5
+    },
+    "t2": {
+      "comment": "I will definitely reserve a table again!",
+      "image": "images/profile2.jpg",
+      "name": "Mary Anne Saba",
+      "rating": 4
+    },
+    "t3": {
+      "comment": "I really love the desserts!!!",
+      "image": "images/profile3.jpg",
+      "name": "Casey Mattheus Saba",
+      "rating": 5
+    },
+    "t4": {
+      "comment": "The appetizers and the drinks are awesome!",
+      "image": "images/profile4.jpg",
+      "name": "Jason Saba",
+      "rating": 4
+    },
+    "t5": {
+      "comment": "The restaurant staff are so accomodating and very professional",
+      "image": "images/profile5.jpg",
+      "name": "Elka Santos",
+      "rating": 5
+    },
+    "t6": {
+      "comment": "I reaaly love the food ans the ambiance",
+      "image": "images/profile6.jpg",
+      "name": "Ryan Santos",
+      "rating": 5
+    },
+    "t7": {
+      "comment": "I love the healthy food options",
+      "image": "images/profile7.jpg",
+      "name": "Nenita Santos",
+      "rating": 4
+    },
+    "t8": {
+      "comment": "It's really nice family-freindly place",
+      "image": "images/profile8.jpg",
+      "name": "Oscar Saba",
+      "rating": 5
+    },
+    "t9": {
+      "comment": "We really love the sweets!",
+      "image": "images/profile9.jpg",
+      "name": "Lia and Gab Santos",
+      "rating": 4
+    }
+  },
+  "reservations.json": {}
+}

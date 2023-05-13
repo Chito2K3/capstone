@@ -1,0 +1,46 @@
+.filtermeals {
+  margin-bottom: 2rem;
+}
+
+.filtermeals h1 {
+  font-size: 2rem;
+  color: #495e57;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.filtermeals p {
+  color: #495e57;
+  margin: 1rem 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.mealsnav {
+  border-bottom: 1px solid #d4d6d5;
+}
+
+.mealsnav-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.5rem 0 2.5rem;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.mealsnav-items li a {
+  padding: 0.5rem 1.5rem;
+  color: #495e57;
+  border: 1px solid #495e57;
+  border-radius: 6rem;
+}
+
+.mealsnav-items li a:hover,
+.mealsnav-items li a.active {
+  color: #333;
+  background-color: #f4ce14;
+  border: none;
+}

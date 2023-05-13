@@ -1,0 +1,34 @@
+.input {
+  margin-bottom: 1.5rem;
+}
+
+.select-input {
+  background-color: #fff;
+  padding: 0.65rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.select-input label {
+  color: #495e57;
+  font-size: 1rem;
+}
+
+.select-input select {
+  border: 0.5px solid #495e57;
+  margin-left: 1.25rem;
+  border-radius: 0.25rem;
+  padding: 0.2rem;
+  color: #495e57;
+  outline: none;
+}
+
+.select-input select.error {
+  border: 1px solid #ee9972;
+}
+
+.error {
+  color: #ca5114
+}

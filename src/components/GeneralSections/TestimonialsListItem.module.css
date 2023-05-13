@@ -1,0 +1,42 @@
+.testimonial {
+  padding: 1.5rem 1.25rem;
+}
+
+.testimonial-svg {
+  margin: 1rem 0;
+  color: #495e57;
+}
+
+.testimonial-svg svg {
+  color: #f4ce14;
+  font-size: 1.25rem;
+}
+
+.testimonial-content {
+  margin: 1rem 0;
+  color: #fff;
+  height: 7.75rem;
+}
+
+.testimonial-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-user h4 {
+  color: #ee9972;
+}
+
+.testimonial-user p {
+  color: #495e57;
+  padding: 0.5rem 0;
+}
+
+.testimonial-user img {
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid #ee9972;
+  border-radius: 6rem;
+}

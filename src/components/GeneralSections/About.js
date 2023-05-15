@@ -1,15 +1,4 @@
-import { Link } from "react-router-dom";
 import classes from "./About.module.css";
-// import LocationImage1 from "../../assets/restaurant.jpg";
-// import LocationImage2 from "../../assets/chicago2.jpg";
-// import { TfiLocationPin } from "react-icons/tfi";
-// import { BsClockHistory } from "react-icons/bs";
-// import MarioImage from "../../assets/mario.jpg";
-// import AdrianImage from "../../assets/adrian.jpg";
-// import Chef from "../../assets/headchef2.jpg";
-
-// NB: Could transfer the branches to a database and map them here instead of hard coding; fine to hard code now coz we only have two
-// Consider moving the branches to a new component
 
 function About() {
   return (
@@ -17,16 +6,7 @@ function About() {
       <h1>About</h1>
       <div className={classes.description}>
         <p>
-          Little Lemon (co-founded by Mario Stefano and Adrian Demphris) is a
-          vibrant Chicago restaturant focused on serving traditional recipes in
-          a modern setting. Little Lemon celebrates the best of traditional
-          Mediterranean dishes with irresistible hospitality and service. Those
-          who prefer to stay at home can still enjoy our dishes through the
-          swift and reliable <Link to="/menu">order online service</Link>.
-          Families and groups are also catered for: just{" "}
-          <Link to="/reservations">reserve a table</Link> the size of your
-          family or group and come enjoy the ambience and delicious food at
-          Little Lemon.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, officiis! Laboriosam veniam beatae eligendi dolorum blanditiis aliquid recusandae provident eius illum, fugit rerum pariatur quod minima ullam corrupti odio expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, officiis! Laboriosam veniam beatae eligendi dolorum blanditiis aliquid recusandae provident eius illum, fugit rerum pariatur quod minima ullam corrupti odio expedita.
         </p>
       </div>
       {/* <h1>Locations & Opening Hours</h1>

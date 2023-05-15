@@ -55,5 +55,31 @@
       "rating": 4
     }
   },
-  "reservations.json": {}
+  "reservations.json": {},
+  "meals.json": {
+    "m1": {
+      "category": "lunch",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quoeum, deserunt placeat officia iste iusto quia.",
+      "image": "images/greeksalad.jpg",
+      "isFeatured": true,
+      "price": 12.99,
+      "title": "Greek Salad"
+    },
+    "m2": {
+      "category": "mains",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quoeum, deserunt placeat officia iste iusto quia.",
+      "image": "images/bruchetta.jpg",
+      "isFeatured": true,
+      "price": 5.99,
+      "title": "Bruchetta"
+    },
+    "m3": {
+      "category": "desserts",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quoeum, deserunt placeat officia iste iusto quia.",
+      "image": "images/lemondessert.jpg",
+      "isFeatured": true,
+      "price": 5,
+      "title": "Lemon Dessert"
+    }
+  }
 }

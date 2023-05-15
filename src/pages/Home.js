@@ -3,13 +3,15 @@ import { json } from "react-router-dom";
 import AboutBrief from "../components/GeneralSections/AboutBrief";
 import Testimonials from "../components/GeneralSections/Testimonials";
 import MainHeroSection from "../components/Layout/MainHeroSection";
+import Specials from "../components/Meals/Specials";
+
 
 function HomePage() {
   return (
     <Fragment>
       <MainHeroSection />
       <div>
-        
+        <Specials />
         <Testimonials />
         <AboutBrief />
       </div>

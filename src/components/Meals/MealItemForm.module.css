@@ -1,0 +1,24 @@
+.form h2 {
+  margin: 0.5rem 0;
+}
+
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  padding: 2rem 0;
+}
+
+.action button {
+  border-radius: 6rem;
+}
+
+.action p {
+  color: #ee9972;
+  padding: 0.6rem 1rem 0;
+  font-size: 0.8rem;
+  text-align: center;
+}

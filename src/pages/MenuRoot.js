@@ -9,12 +9,10 @@ function MenuRootLayout() {
     <Fragment>
       <PageHero image={MenuHero} alt={"Delicious Meals"} />
       <MealsNavigation
-        title={"Order for Delivery"}
+        title={"We Deliver!"}
         message={
           <p>
-            Check out all our available meals and drinks. If you love to enjoy
-            your meals at home, pick your favorite(s) from the categories below,
-            add to basket and order online, and we will deliver swiftly!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, officiis! Laboriosam veniam beatae eligendi dolorum blanditiis aliquid recusandae provident eius illum, fugit rerum pariatur quod minima ullam corrupti odio expedita.
           </p>
         }
       />

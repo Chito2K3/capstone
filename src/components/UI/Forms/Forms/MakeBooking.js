@@ -122,9 +122,7 @@ function MakeBooking() {
 
   const didSubmitDetails = (
     <DidSubmit
-      message="You have successfully reserved a table. To manage your reservations (i.e
-        cancel or edit), log in to your account or sign up with the name and email you've just used
-        to make your reservation."
+      message="Booking is complete! You have successfully reserved a table. "
       regards="See you soon!"
       onClick={refreshPage}
     />

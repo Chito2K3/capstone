@@ -4,8 +4,11 @@ import ErrorPage from "./pages/Error";
 import HomePage, { loader as testimonialsLoader } from "./pages/Home";
 import LoginPage from "./pages/Login";
 import BookingPage from "./pages/Booking";
-import RootLayout from "./pages/Root";
+import RootLayout, { loader as allMealsLoader } from "./pages/Root";
+
 import MenuRootLayout from "./pages/MenuRoot";
+
+
 
 
 function App() {
@@ -14,6 +17,7 @@ function App() {
       path: "/",
       element: <RootLayout />,
       errorElement: <ErrorPage />,
+      loader: allMealsLoader,
       id: "root",
       children: [
         { index: true, element: <HomePage />, loader: testimonialsLoader },

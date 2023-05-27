@@ -64,7 +64,7 @@ function MakeBooking() {
           setSubmitting(true);
           setIsSubmitting(true);
           const response = await fetch(
-            "http://localhost:3500/reservations.json",
+            "https://test-api-7zf8.onrender.com/reservations.json",
             {
               method: "POST",
               body: JSON.stringify(values),

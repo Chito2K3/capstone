@@ -22,7 +22,7 @@ function HomePage() {
 export default HomePage;
 
 export async function loader() {
-  const response = await fetch("http://localhost:3500/testimonials.json");
+  const response = await fetch("https://test-api-7zf8.onrender.com/testimonials.json");
   if (!response.ok) {
     return json({ message: "Could not fetch testimonials" }, { status: 500 });
   } else {

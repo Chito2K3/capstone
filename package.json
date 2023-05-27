@@ -18,7 +18,7 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    "start": "concurrently \"npm run start-json-server\" \"react-scripts start\"",
+    "start": "react-scripts start",
     "start-json-server": "json-server --watch db.json --port 3500",
     "build": "react-scripts build",
     "test": "react-scripts test",

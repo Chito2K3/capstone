@@ -19,7 +19,7 @@ export default RootLayout;
 
 export async function loader() {
   const response = await fetch(
-    "http://localhost:3500/meals.json"
+    "https://test-api-7zf8.onrender.com/meals.json"
   );
 
   if (!response.ok) {
